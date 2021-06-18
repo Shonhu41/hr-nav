@@ -1,7 +1,6 @@
 .slideshow-container {
   transition: left 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
     max-width: 100%;
-    position: relative;
     margin: auto;
   }
   
@@ -9,10 +8,8 @@
   .next {
     cursor: pointer;
     position: absolute;
-    top: 0;
     top: 50%;
     width: auto;
-
     padding: 16px;
     color: white;
     font-weight: bold;
@@ -21,11 +18,11 @@
   }
   
   .next {
-    right: 0;    top: 0;
+    right: 0;    top: 50%;
     border-radius: 3px 0 0 3px;
   }
   .prev {
-    left: 0;    top: 0;
+    left: 0;    top: 50%;
     border-radius: 3px 0 0 3px;
   }
   
@@ -33,7 +30,7 @@
   .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
-    top:0;
+    top:50%;
   }
   
   .text {
