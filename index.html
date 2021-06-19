@@ -5,7 +5,10 @@
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
-<body>
+<body style="  -moz-transition: .5s .5s;
+-o-transition: .5s .5s;
+-webkit-transition: .5s .5s;
+transition: .5s .5s;">
     <div class="menu-button">
         <svg class="menu-icon" width="32" height="14" viewBox="0 0 32 14">
             <g fill="currentColor" fill-rule="evenodd"><path d="M1 0h30a1 1 0 010 2H1a1 1 0 110-2zM1 12h30a1 1 0 010 2H1a1 1 0 010-2z"></path></g>
@@ -21,7 +24,8 @@
     <span class="dot" onclick="currentSlide(4)"></span>
   </div>
     <div class="slideshow-container">
-        <div class="mySlides">
+        <div class="mySlides" style=" position: relative; transition: background-color 2s, left 0.5s;
+        left: 0;" >
       
           <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" style="width: 100%;">
           <div class="text">Conteúdo 1</div>

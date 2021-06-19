@@ -15,6 +15,7 @@
     font-weight: bold;
     font-size: 18px;
     border-radius: 0 3px 3px 0;
+    
   }
   
   .next {
@@ -44,7 +45,10 @@
   }
   .bg-red{
       background-color: red;
-      height: 1000px;
+      height: 1000px;  -moz-transition: .5s .5s;
+      -o-transition: .5s .5s;
+      -webkit-transition: .5s .5s;
+      transition: .5s .5s;
   }
   .numbertext {
     color: #f2f2f2;
